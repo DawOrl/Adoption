@@ -8,12 +8,16 @@ function myMenuFunction() {
     }
 }
 
+var box = document.getElementById("box");
+var main = document.getElementById("main");
 var a = document.getElementById("loginBtn");
 var b = document.getElementById("registerBtn");
 var x = document.getElementById("login");
 var y = document.getElementById("register");
 
 function login() {
+    box.classList.remove("hidden");
+    main.classList.add("hidden");
     x.style.left = "4px";
     y.style.right = "-520px";
     a.className += " white-btn";
@@ -23,6 +27,8 @@ function login() {
 }
 
 function register() {
+    box.classList.remove("hidden");
+    main.classList.add("hidden");
     x.style.left = "-510px";
     y.style.right = "5px";
     a.className = "btn";

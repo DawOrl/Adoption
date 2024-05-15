@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt Login</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
 </head>
@@ -20,14 +20,7 @@
             <div class="nav-logo">
                 <p>KD LOGO .</p>
             </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="#" class="link">Home</a></li>
-                    <li><a href="#" class="link">About</a></li>
-                    <li><a href="#" class="link">Adopt</a></li>
-                    <li><a href="#" class="link">Contact</a></li>
-                </ul>
-            </div>
+            
             <div class="nav-button">
                 <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
                 <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
@@ -37,7 +30,7 @@
             </div>
         </nav>
         <!--FORM BOX-->
-        <div class="form-box hidden">
+        <div class="form-box hidden" id="box">
             <!--Login-->
             <div class="login-container" id="login">
             <form id="formLogin" action="login.php" method="post">
@@ -115,9 +108,9 @@
         </div>
         <!--Form box END-->
         <!--Main Page Start-->
-        <div class="main-content">
+        <div class="main-content" id="main">
             <!--Home Section Start-->
-            <section class="home active section" id="home">
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info">
@@ -126,6 +119,7 @@
                             <p class="padd-15">We would like to show you the design of our website, which focuses on the adoption 
                                 of abandoned animals with the possibility of financial support for shelters and 
                                 organizations cooperating with us.</p>
+                            <h4 class="please-login padd-15">Please Login to see entire page!</h4>
                         </div>
                         <div class="home-img">
                             <img src="css/img/dog.webp" alt="">
@@ -136,7 +130,8 @@
             <!--Home Section End-->
         <!--Main Page End-->
         </div>
+        <footer>© 2024 OrlMech. All Rights Reserved.</footer>
     </div>
-    <script src="js/login.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
