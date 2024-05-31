@@ -34,10 +34,14 @@ nav {
     z-index: 100;
 }
 
-.nav-logo p {
-    color: white;
+.nav-logo {
     font-size: 25px;
     font-weight: 600;
+}
+
+.nav-logo a {
+    color: white;
+    text-decoration: none;
 }
 
 .nav-menu ul {
@@ -402,7 +406,7 @@ h4.please-login {
 .home .home-img img {
     margin: auto;
     height: 600px;
-    border: 1px solid #e8dfec;
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
 }
 

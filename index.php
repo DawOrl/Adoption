@@ -18,7 +18,7 @@
         <!--NAV MENU-->
         <nav>
             <div class="nav-logo">
-                <p>KD LOGO .</p>
+                <a href="#" onclick="showhome()">KD LOGO .</a>
             </div>
             
             <div class="nav-button">
@@ -122,7 +122,7 @@
                             <h4 class="please-login padd-15">Please Login to see entire page!</h4>
                         </div>
                         <div class="home-img">
-                            <img src="css/img/dog.webp" alt="">
+                            <img src="css/img/PetStoreFull.png" alt="">
                         </div>
                     </div>
                 </div>

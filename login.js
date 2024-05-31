@@ -36,3 +36,8 @@ function register() {
     x.style.opacity = 0;
     y.style.opacity = 1;
 }
+
+function showhome() {
+    box.classList.add("hidden");
+    main.classList.remove("hidden");
+}
